@@ -1,0 +1,47 @@
+// 主色
+$color-primary: #006666;
+$color-white: #FFFFFF;
+// 辅助色
+$color-assist-yellow: #FFBC00;
+$color-assist-gray: #757E7E;
+$color-assist-3: #FFFCEF;
+$color-assist-4: #E5F1F0;
+// 点缀色
+$color-decorate-blue: #1EC969;
+$color-decorate-red: #FF836B;
+// 中性色
+$color-text-main: #282827;
+$color-text-minor: #799F9F;
+$color-text-placeholder: #BFCBD1;
+$color-bg: #F0F7F7;
+$color-stroke: #DDE9E8;
+$color-special: #7C7546;
+
+$green-theme:(
+  color-primary: $color-primary,
+  color-white: $color-white,
+  color-bg: $color-bg,
+  color-decorate-blue: $color-decorate-blue,
+  color-decorate-red: $color-decorate-red,
+  color-stroke: $color-stroke,
+  color-assist-gray: $color-assist-gray,
+  color-assist-yellow: $color-assist-yellow,
+  color-assist-3: $color-assist-3,
+  color-assist-4:$color-assist-4,
+  color-text-main: $color-text-main,
+  color-text-placeholder:$color-text-placeholder,
+  color-text-minor: $color-text-minor,
+  color-special: $color-special,
+  sidebar-background-color: $color-primary,
+  sidebar-item-background-color: $color-primary,
+  sidebar-active-text-color: $color-assist-yellow,
+  sidebar-item-arrow-color: $color-assist-yellow,
+  sidebar-item-active-background: linear-gradient(270deg, $color-assist-yellow 0%, #006666 100%),
+  sidebar-item-hover-font-color: $color-assist-yellow,
+  tag-view-item-background-color: $color-white,
+  tag-view-item-font-color: $color-text-minor,
+  tag-view-active-item-font-color: $color-primary,
+  button-special-background-color: $color-assist-yellow,
+  message-success-bg-color: rgba(30,201,105,0.2),
+  message-error-bg-color: rgba(255,131,107,0.2),
+);

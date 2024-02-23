@@ -1,0 +1,87 @@
+@import './index.scss';
+//遍历主题map
+@mixin themeify {
+
+  @each $theme-name,
+  $theme-map in $themes {
+    //!global 把局部变量强升为全局变量
+    $theme-map: $theme-map !global;
+
+    //这步是判断html的data-theme的属性值  #{}是sass的插值表达式
+    //& sass嵌套里的父容器标识   @content是混合器插槽，像vue的slot
+    [data-theme="#{$theme-name}"] & {
+      @content;
+    }
+  }
+}
+
+//声明一个根据Key获取颜色的function
+@function themed($key) {
+  $color:  map-get($theme-map, $key);
+  @if $color {
+    @return $color;
+  }
+  @else {
+    @return #fff;
+  }
+}
+
+//获取背景透明度
+@mixin background($color) {
+  @include themeify {
+    background: themed($color)
+  }
+}
+
+@mixin background_imp($color) {
+  @include themeify {
+    background: themed($color) !important
+  }
+}
+
+//获取背景颜色
+@mixin background_color($color) {
+  @include themeify {
+    background-color: themed($color)
+  }
+}
+
+@mixin background_color_imp($color) {
+  @include themeify {
+    background-color: themed($color) !important
+  }
+}
+@mixin background_color_opacity_imp($color, $opacity: 0.3) {
+  @include themeify {
+    @include background-opacity(themed($color),$opacity)
+  }
+}
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+//获取字体颜色
+@mixin font_color($color) {
+  @include themeify {
+    color: themed($color);
+  }
+}
+
+@mixin font_color_imp($color) {
+  @include themeify {
+    color: themed($color) !important
+  }
+}
+
+//获取边框颜色
+@mixin border_color($color) {
+  @include themeify {
+    border-color: themed($color)
+  }
+}
+
+@mixin border_color_imp($color) {
+  @include themeify {
+    border-color: themed($color) !important
+  }
+}

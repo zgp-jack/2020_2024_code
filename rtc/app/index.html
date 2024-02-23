@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-webrtc</title>
+    <script src="./static/socket.io.js"></script>
+    <link href="./static/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    // 扩展API加载完毕后调用onPlusReady回调函数 
+    document.addEventListener( "plusready", onPlusReady, false );
+    var rcd = null; 
+    var cmr = null; 
+    var ap = null;
+    // 扩展API加载完毕，现在可以正常调用扩展API 
+    function onPlusReady() {
+      // 获取设备默认的摄像头对象 
+      cmr = plus.camera.getCamera();
+      rcd = plus.audio.getRecorder();
+      ap = plus.audio.createPlayer({});
+      // ...... 
+    }
+  </script>
+</html>

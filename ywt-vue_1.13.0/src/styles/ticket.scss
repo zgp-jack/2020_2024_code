@@ -1,0 +1,69 @@
+/*
+ 工单样式
+*/
+
+/* 工单
+-------------------------- */
+.ticket {
+  // 通话类型
+  .call-type {
+    // 未接
+    &--2 {
+      color: $--pure-color-danger;
+    }
+    // 拨出
+    &--1 {
+      color: $--pure-color-warning;
+    }
+  }
+  // 紧急程度
+  .degree{
+    // 非常紧急
+    &--1 {
+      color: $--pure-color-danger;
+    }
+    // 较紧急
+    &--2 {
+      color: $--pure-color-warning;
+    }
+  }
+  // 工单状态
+  .state {
+    // 待接单
+    &--wait_accept {
+      color: $--pure-color-danger;
+    }
+    // 待派单
+    &--wait_delivery {
+      color: $--pure-color-warning;
+    }
+    // 处理中
+    &--processing {
+      color: $--pure-color-success;
+    }
+    // 待审核
+    &--wait_audit {
+      color: $--pure-color-warning;
+    }
+    // 审核未通过
+    &--not_pass_audit {
+      color: $--pure-color-danger;
+    }
+    // 已暂停
+    &--suspended {
+      color: $--pure-color-warning;
+    }
+    // 已终止
+    &--terminated {
+      color: $--pure-color-danger;
+    }
+    // 待评价
+    &--wait_appraisal {
+      color: $--pure-color-theme;
+    }
+    // 已结束
+    &--ended {
+      color:$--pure-color-text;
+    }
+  }
+}

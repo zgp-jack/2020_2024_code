@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="32px" viewBox="0 0 128 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 5</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00326C" stop-opacity="0.494495739" offset="0%"></stop>
+            <stop stop-color="#4098FF" offset="99.916002%"></stop>
+        </linearGradient>
+        <path d="M15.75,32 L5.75,15.5 L0,6.01 L2.75,0 L112.25,3.55271368e-15 L122.25,16.5 L128,25.99 L125.25,32 L15.75,32 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="128" height="32" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <linearGradient x1="100%" y1="50%" x2="2.0678042%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#0090FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#92B7FF" offset="17.0027726%"></stop>
+            <stop stop-color="#FFFFFF" offset="48.2616505%"></stop>
+            <stop stop-color="#99D3FF" offset="84.5728734%"></stop>
+            <stop stop-color="#0090FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时监控-SCADA系统-展开作业" transform="translate(-195.000000, -41.000000)">
+            <g id="编组-5" transform="translate(195.000000, 41.000000)">
+                <g id="bottom">
+                    <rect id="路径" x="0" y="0" width="128" height="32"></rect>
+                    <use id="形状结合" stroke="#398BE4" mask="url(#mask-3)" stroke-width="2" fill="url(#linearGradient-1)" stroke-dasharray="0,0" xlink:href="#path-2"></use>
+                </g>
+                <path d="M71,30 C40.6209877,30 16,30.4466667 16,31 C16,31.5533333 40.6209877,32 71,32 C101.379012,32 126,31.5533333 126,31 C126,30.4466667 101.379012,30 71,30 Z" id="路径备份-4" fill="url(#linearGradient-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

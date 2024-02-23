@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="22"></rect>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D5E6FF" offset="0%"></stop>
+            <stop stop-color="#72AFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时指挥_云台控制" transform="translate(-178.000000, -751.000000)">
+            <g id="形状" transform="translate(178.062446, 751.351768)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <path d="M2.59939765,6 C2.67073312,6.00027143 2.7414659,6.0130541 2.80836925,6.03776487 L19.60296,11.9248878 C19.8316886,12.0083759 19.9879228,12.2206896 19.9993324,12.463536 C20.0107419,12.7063825 19.8750998,12.9323613 19.6552029,13.0368533 L11.6536325,15.6522201 L9.03668359,23.6511782 C8.93437947,23.8730669 8.7074371,24.0107977 8.46301609,23.9993358 C8.21859508,23.9878739 8.00558642,23.829512 7.92457038,23.5990267 L2.03613513,6.80984656 C1.96934564,6.6256323 1.9961687,6.42052676 2.1080943,6.25960257 C2.2200199,6.09867839 2.4031551,6.00191054 2.59939765,6 Z" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(11.000000, 15.000000) rotate(-315.000000) translate(-11.000000, -15.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

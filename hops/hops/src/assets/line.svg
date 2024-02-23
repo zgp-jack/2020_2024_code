@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" fill="none" version="1.1" width="87" height="360" viewBox="0 0 87 360">
+    <path class="link" d="M 0,179 C 0,180 45,45 87,45" style="fill:none;stroke:#BFCBD1;stroke-width=6px;cursor: default;"/>
+    <path class="link" d="M 0,180 C 0,180 45,135 87,135" style="fill:none;stroke:#BFCBD1;stroke-width=6px;cursor: default;"/>
+    <path class="link" d="M 0,180 C 0,180 45,225 87,225" style="fill:none;stroke:#BFCBD1;stroke-width=6px;cursor: default;"/>
+    <path class="link" d="M 0,181 C 0,180 45,315 87,315" style="fill:none;stroke:#BFCBD1;stroke-width=6px;cursor: default;"/>
+</svg>

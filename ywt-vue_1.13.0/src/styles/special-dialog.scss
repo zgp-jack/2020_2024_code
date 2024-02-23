@@ -1,0 +1,117 @@
+
+.pure-dialog {
+  .title {
+    .main {
+      font-size: 20px;
+      line-height: 20px;
+      color: #2D405E;
+      font-weight: 400;
+    }
+    .sub {
+      font-size: 14px;
+      line-height: 20px;
+      color: #879BBA;
+      padding-left: 32px;
+    }
+  }
+  .right ::v-deep{
+    .el-dialog {
+      position: absolute;
+      right:0;
+    }
+  }
+  .right-bottom ::v-deep {
+    .el-dialog {
+      position: absolute;
+      right:0;
+      bottom:0;
+      top: 13vh;
+      margin-bottom: 0;
+    }
+  }
+  .el-dialog__wrapper ::v-deep {
+    .el-dialog__header {
+      padding: 14px 16px 13px 16px;
+      border-bottom: 1px solid #ECF0F7;
+    }
+    .el-dialog__body {
+      padding: 16px;
+      height: 87%;
+      max-height: 75vh;
+      .el-form-item__label{
+        color: #879BBA;
+      }
+    }
+  }
+  .el-dialog__wrapper ::v-deep .el-dialog__headerbtn {
+    top: 16px;
+    right: 16px;
+    .el-icon-close::before {
+      content: "\e79d";
+      }
+    .el-dialog__close {
+      color: #dee2ee;
+    }
+    &:hover {
+      .el-dialog__close {
+        color: #1890ff;
+      }
+    }
+  }
+}
+.special-dialog {
+  ::v-deep .el-dialog {
+    background: #01070d;
+      .el-dialog__header {
+        padding-top: 0;
+        border-bottom: unset;
+      }
+      .el-dialog__body {
+        padding: 16px;
+        height: 87%;
+        max-height: 75vh;
+
+        .el-form-item__label{
+          color: #879BBA;
+        }
+      }
+      .el-dialog__headerbtn {
+        top: 16px;
+        right: 16px;
+        .el-icon-close::before {
+          content: "\e6db";
+          }
+        .el-dialog__close {
+          color: #c9e5ff;
+        }
+        &:hover {
+          .el-dialog__close {
+            color: #1890ff;
+          }
+        }
+      }
+    .title {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #263341;
+      position: relative;
+      .main {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 15px;
+        bottom: -2px;
+        height: 3px;
+        opacity: 0.8;
+        background: #ffffff;
+      }
+    }
+
+  }
+}
+

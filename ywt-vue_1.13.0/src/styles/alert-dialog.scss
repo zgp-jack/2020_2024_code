@@ -1,0 +1,68 @@
+.alert-dialog {
+ 
+ 
+
+  ::v-deep .el-dialog {
+    background: #0D0101;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.00) 24%, rgba(230,70,69,0.10) 100%);
+  border: 1px solid #401313;
+  box-shadow: 0 10px 20px 0 rgba(230,70,69,0.05), 0 20px 40px 10px #140000;
+    .el-dialog__header {
+      padding-top: 0;
+      border-bottom: unset;
+    }
+
+    .el-dialog__body {
+      padding: 16px;
+      height: 87%;
+      max-height: 75vh;
+
+      .el-form-item__label {
+        color: #879bba;
+      }
+    }
+
+    .el-dialog__headerbtn {
+      top: 16px;
+      right: 16px;
+
+      .el-icon-close::before {
+        content: "\e6db";
+      }
+
+      .el-dialog__close {
+        color: #E64645;
+      }
+
+      &:hover {
+        .el-dialog__close {
+          color: #E64645;
+        }
+      }
+    }
+
+    .title {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #e64645;
+      position: relative;
+
+      .main {
+        color: #e64645;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 15px;
+        bottom: -2px;
+        height: 3px;
+        opacity: 0.8;
+        background: #e64645;
+      }
+    }
+  }
+}

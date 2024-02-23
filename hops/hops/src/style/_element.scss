@@ -1,0 +1,347 @@
+.el-menu {
+    border: 0;
+}
+
+// input
+.el-input__icon {
+    line-height: 32px;
+}
+
+.el-input__inner {
+    height: 32px;
+    line-height: 32px;
+}
+
+.el-cascader .el-input .el-input__inner {
+    height: 32px !important;
+    line-height: 32px !important;
+}
+
+.el-cascader-node.in-active-path,
+.el-cascader-node.is-active,
+.el-cascader-node.is-selectable.in-checked-path {
+    color: #006666;
+}
+
+// .el-input--prefix .el-input__inner.is-focus {
+//     border: 1px solid #DDE9E8;
+// }
+
+.el-range-editor.el-input__inner {
+    padding: 0 15px;
+}
+
+// .el-select
+.el-select {
+    width: 100%;
+}
+
+.el-select .el-tag {
+    max-width: 60%
+}
+
+// table
+.el-table th.el-table__cell {
+    background-color: #E5F1F0;
+}
+
+.el-table th.el-table__cell>.cell {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.el-table thead.is-group th.el-table__cell {
+    background-color: #E5F1F0;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell {
+    background-color: #F0F7F7;
+}
+
+.el-table__cell .common-btn {
+    background-color: transparent;
+    color: #006666;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    width: auto;
+    min-width: 0;
+    margin-right: 16px;
+    padding: 0;
+}
+
+.el-table__body tr.current-row>td.el-table__cell {
+    background-color: #F0F7F7;
+}
+
+// scrollbar
+.el-scrollbar {
+    height: 100%;
+}
+
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+.el-popper .el-scrollbar__wrap {
+    overflow: scroll;
+}
+
+// checkbox
+.el-checkbox {
+    font-size: 14px;
+    color: #066666;
+    margin-right: 15px;
+}
+
+.el-checkbox-group {
+    display: flex;
+}
+
+.plan-checkbox-group {
+    flex-direction: column;
+}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected::after {
+    color: #006666;
+}
+
+.el-checkbox__label {
+    padding-left: 8px;
+}
+
+.el-checkbox__inner,
+.el-checkbox__inner:hover {
+    border: 1px solid #066666;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #066666;
+}
+
+.el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #066666;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background: #006666;
+    border: 1px solid #066666;
+    border-radius: 4px;
+}
+
+
+// el-form networkEdit
+.networkEdit .el-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.networkEdit .el-form .el-form-item,
+.ruleEdit.el-form .el-form-item {
+    width: 190px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+// popper
+.el-popper {
+    // max-height: 145px;
+    // overflow: auto;
+}
+
+.el-col-25 {
+    width: 20%;
+}
+
+.el-form-item {
+    margin-bottom: 16px;
+}
+
+.el-card__body {
+    padding: 16px;
+}
+
+// el-dialog
+.el-dialog .el-dialog__header {
+    padding: 16px 16px 0 16px;
+}
+
+.el-dialog .el-dialog__title {
+    color: #282827;
+    line-height: 24px;
+}
+
+.el-dialog .el-dialog__body {
+    padding: 16px;
+}
+
+.el-dialog__headerbtn:focus .el-dialog__close,
+.el-dialog__headerbtn:hover .el-dialog__close,
+.el-dialog__headerbtn .el-dialog__close {
+    color: #BFCBD1;
+}
+
+// el-tree
+.el-tree-node__content:hover,
+.el-upload-list__item:hover,
+.el-tree-node:focus>.el-tree-node__content {
+    background-color: #F0F7F7;
+}
+
+// 小图标
+.el-icon-loading,
+.el-icon-video-play,
+.el-icon-delete-solid,
+.el-icon-s-tools,
+.el-icon-s-order {
+    margin-right: 4px;
+    font-size: 16px;
+    color: #006666;
+    cursor: pointer;
+}
+
+// el-picker
+.el-picker-panel .el-time-panel__content:after,
+.el-time-panel__content:before {
+    margin-top: -8px;
+}
+
+.el-time-panel__footer {
+    display: none;
+}
+
+.el-range-editor.el-input__inner {
+    width: 100%;
+}
+
+.form-control {
+    .el-input__inner {
+        border-width: 0px 0px 1px 0px;
+        border-radius: 0;
+        height: 48px;
+    }
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #006666;
+}
+
+//el-paggr
+.el-pager li:hover {
+    color: #006666;
+}
+
+.el-pager li.active {
+    color: #006666;
+}
+
+.el-pagination__total {
+    color: #006666;
+}
+
+//.el-empty
+.el-empty {
+    height: 100%;
+}
+
+// .el-empty__description
+.el-empty__description {
+    margin-top: 0;
+}
+
+//.el-empty__image
+.el-empty__image {
+    width: 120px;
+}
+
+//.el-button
+.el-button--primary {
+    background-color: #006666;
+    border-color: #006666;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+    background-color: #006666 !important;
+    border-color: #006666 !important;
+    color: #fff !important;
+}
+
+.el-button:focus,
+.el-button:hover {
+    color: #006666;
+    border-color: rgba(0, 102, 102, .1);
+    background-color: rgba(0, 102, 102, .1);
+    ;
+}
+
+.main-top-add .el-button {
+    padding: 8px 16px;
+}
+
+.el-date-editor .el-range-input {
+    width: 36%;
+}
+
+.el-date-editor .el-range-separator {
+    width: 8%;
+}
+
+// 网络拓补图 设置tooltip
+.el-main {
+    // overflow: initial;
+}
+
+.tooltipEdge .el-tabs {
+    height: 100%;
+}
+
+.tooltipEdge .el-tabs__content {
+    height: calc(100% - 54px);
+}
+
+.tooltipEdge .el-tab-pane {
+    height: 100%;
+}
+
+.el-tabs__item,
+.el-tabs__item:hover,
+.el-tabs__item.is-active {
+    color: #006666;
+}
+
+.el-tabs__active-bar {
+    background-color: #006666;
+}
+
+.el-tabs__nav-next,
+.el-tabs__nav-prev {
+    color: #006666;
+}
+
+.el-carousel--vertical {
+    overflow-y: initial;
+}
+
+.el-carousel__item {
+    opacity: 0.3;
+}
+
+.el-carousel__item.is-active {
+    opacity: 1;
+}
+
+#togologView .x6-node image {
+    cursor: pointer;
+}
+
+.el-table .ascending .sort-caret.ascending {
+    border-bottom-color: #006666;
+}
+
+.el-table .descending .sort-caret.descending {
+    border-top-color: #006666;
+}

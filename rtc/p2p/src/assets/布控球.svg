@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>监控摄像头_monitor-camera (1)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="22"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#E1EEFF" offset="0%"></stop>
+            <stop stop-color="#C0D8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时监控-SCADA系统" transform="translate(-60.000000, -171.000000)">
+            <g id="监控摄像头_monitor-camera-(1)" transform="translate(60.000000, 171.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(3.500000, 1.500000)">
+                        <path d="M7.5,0 C11.642149,0 15,3.35785096 15,7.5 C15,11.642149 11.642149,15 7.5,15 C3.35785096,15 0,11.642149 0,7.5 C0,3.35785096 3.35785096,0 7.5,0 Z M7.5,4.2 C5.67746429,4.2 4.2,5.67746429 4.2,7.5 C4.2,9.32253571 5.67746429,10.8 7.5,10.8 C9.32253571,10.8 10.8,9.32253571 10.8,7.5 C10.8,5.67746429 9.32253571,4.2 7.5,4.2 Z" id="形状结合" stroke="none" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                        <polygon id="路径" stroke="#C0D8FF" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" points="5.33868 14.5 3.76666667 19.1666667 11.2333333 19.1666667 9.64839333 14.5"></polygon>
+                        <line x1="1.9" y1="19.1666667" x2="13.1" y2="19.1666667" id="路径" stroke="#C0D8FF" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

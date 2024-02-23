@@ -1,0 +1,59 @@
+/* 引入图标 */
+[class^="icon-setting"],
+[class*=" icon-setting"],
+[class^="icon-chart-bar"],
+[class*=" icon-chart-bar"],
+[class^="icon-chart-line"],
+[class*=" icon-chart-line"],
+[class^="icon-setting1"],
+[class*=" icon-setting1"],
+[class^="icon-drag1"],
+[class*=" icon-drag1"],
+[class^="icon-drag2"],
+[class*=" icon-drag2"]
+{
+  font-family: "iconfont" !important;
+  font-size: 24px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #879BBA;
+  cursor: pointer;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 2655579 */
+  src: url('iconfont.woff2?t=1625625340616') format('woff2'),
+       url('iconfont.woff?t=1625625340616') format('woff'),
+       url('iconfont.ttf?t=1625625340616') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chart-line:before {
+  content: "\e7af";
+}
+
+.icon-chart-bar:before {
+  content: "\e61f";
+}
+.icon-drag1:before {
+  content: "\e75a";
+}
+
+.icon-drag2:before {
+  content: "\e638";
+}
+
+.icon-setting1:before {
+  content: "\e61b";
+}
+
+.icon-setting:before {
+  content: "\e61e";
+}
+

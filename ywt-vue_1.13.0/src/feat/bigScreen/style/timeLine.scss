@@ -1,0 +1,24 @@
+::v-deep .el-timeline-item__timestamp {
+  font-size: 18px;
+  font-family: AlibabaPuHuiTi_2_55_Regular, AlibabaPuHuiTi_2_55_Regular-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #C9E5FF;
+  }
+  ::v-deep .el-timeline-item__node--normal{
+  width: 6px !important;
+      height: 6px !important;
+      background: #C9E5FF;
+  }
+  ::v-deep .el-timeline-item__node{
+    border-radius: 0 !important;
+  }
+  ::v-deep .el-timeline-item__tail{
+      opacity: 0.3;
+      left: 2px;
+      z-index: 0;
+      border-left: 1px solid #C9E5FF;
+  }
+  ::v-deep .el-timeline-item__wrapper{
+    top: -9px !important;
+  }

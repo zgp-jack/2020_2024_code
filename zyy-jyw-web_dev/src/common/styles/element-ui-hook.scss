@@ -1,0 +1,270 @@
+
+@import './theme/handle.scss';
+@import './element-ui/mixins/mixins.scss';
+// #region radio
+
+@include b(radio) {
+  @include font-color_imp('color-assist-gray');
+  @include e(input) {
+    @include when(checked) {
+      .el-radio__inner {
+        @include border_color_imp('color-primary');
+        @include background_color_imp('color-white');
+      }
+      & + .el-radio__label {
+        @include font-color_imp('color-text-main');
+      }
+    }
+  }
+  @include e(inner) {
+    &:hover {
+      @include border_color_imp('color-primary');
+    }
+    &::after {
+     @include background_color_imp('color-primary');
+    }
+  }
+}
+// #endregion
+
+// #region switch
+@include b(switch) {
+  @include e(core) {
+    @include background_color_imp('color-text-placeholder');
+    &::before {
+      font-family: element-icons!important;
+      content: "\e6db";
+      position: absolute;
+      right: 4px;
+      @include font_color_imp('color-white');
+    }
+  }
+  @include when(checked) {
+    .el-switch__core {
+      @include border_color_imp('color-primary');
+      @include background_color_imp('color-primary');
+      &::before {
+        font-family: element-icons!important;
+        content: "\e6da";
+        @include font_color_imp('color-white');
+        position: absolute;
+        left: 4px;
+      }
+    }
+
+  }
+}
+// #endregion
+// #region upload
+@include b(upload-list) {
+  @include e(item) {
+    padding: 7px;
+    @include font-color_imp('color-assist-gray');
+    .el-icon-close {
+      top: 13px;
+      font-weight: bold;
+    }
+    &:hover {
+      @include background_color_imp('color-bg');
+
+    }
+    @include when(success) {
+      .el-upload-list__item-name:hover, .el-upload-list__item-name:focus {
+        @include font-color_imp('color-primary');
+      }
+    }
+  }
+  @include e(item-name) {
+    [class^="svg-icon"] {
+      margin-right: 6px;
+    }
+  }
+  @include e(item-status-label) {
+    top: 7px;
+  }
+}
+// #endregion
+
+// #region progress
+@include b(progress-bar) {
+  @include e(outer) {
+    @include background_color_imp('color-assist-4');
+  }
+  @include e(inner) {
+    @include background_color_imp('color-primary');
+  }
+}
+// #endregion
+
+
+// #region message
+@include b(message) {
+  padding: 13px 16px;
+  min-width: 138px;
+  @include m(success) {
+    @include background_color_imp('message-success-bg-color');
+    @include border_color_imp('message-success-bg-color');
+    .el-message__content {
+      @include font-color_imp('color-text-main');
+    }
+  }
+  @include m(error) {
+    @include background_color_imp('message-error-bg-color');
+    @include border_color_imp('message-error-bg-color');
+    .el-message__content {
+      @include font-color_imp('color-text-main');
+    }
+  }
+  & .el-icon-success {
+    @include font-color_imp('color-decorate-blue');
+  }
+  & .el-icon-error {
+    @include font-color_imp('color-decorate-red');
+  }
+}
+// #endregion
+// #region radio-button
+@include b(radio-button) {
+  @include e(inner) {
+    @include background_color_imp('color-bg');
+    @include font-color_imp('color-text-minor');
+    @include border_color_imp('color-stroke');
+    border-radius: 4px 4px 0px 0px;
+
+    &:hover {
+      @include font-color_imp('color-primary');
+
+    }
+  }
+  &:first-child {
+    .el-radio-button__inner {
+     border-radius: 4px 4px 0px 0px;
+    }
+  }
+  @include e(orig-radio) {
+    &:checked {
+      & + .el-radio-button__inner {
+        @include background_color_imp('color-white');
+        @include font-color_imp('color-primary');
+        font-weight: bold;
+        box-shadow: none;
+        font-size: 14px;
+      }
+    }
+  }
+  &:last-child {
+    .el-radio-button__inner {
+      border-radius: 4px 4px 0px 0px;
+    }
+  }
+
+  &:first-child:last-child {
+    .el-radio-button__inner {
+      border-radius: 4px 4px 0px 0px;
+    }
+  }
+}
+
+// #endregion
+// #region tabs
+@include b(tabs) {
+  @include e(active-bar) {
+    &:not(.is-left) {
+      background-color: transparent;
+      &:after {
+        content: "";
+        width: 20px;
+        height:4px;
+        @include background_color_imp('tag-view-active-item-font-color');
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        border-radius: 4px;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  @include e(nav-wrap) {
+    &::after {
+      background-color: transparent;
+    }
+  }
+  @include e(item) {
+    @include font-color_imp('color-assist-gray');
+    font-size: 14px;
+    @include when(active) {
+      @include font-color_imp('color-primary');
+    }
+    &:hover {
+      @include font-color_imp('color-primary');
+    }
+  }
+}
+// #endregion
+// #region form
+@include b(form-item) {
+  @include e(label) {
+    @include font-color_imp('color-assist-gray');
+    font-size: 14px;
+  }
+}
+// #endregion
+
+// #region descriptions
+@include b(descriptions) {
+  .is-bordered {
+    table-layout: auto;
+    .el-descriptions-item__cell {
+      @include border_color_imp('color-stroke');
+    }
+  }
+}
+// #endregion
+// #region descriptions-item
+@include b(descriptions-item) {
+  @include e(label) {
+    &.is-bordered-label {
+      @include background_color_imp('color-bg');
+      @include font-color_imp('color-assist-gray');
+      font-size: 14px;
+    }
+    width: 164px;
+  }
+  @include e(content) {
+    font-size: 14px;
+  }
+}
+// #endregion
+
+// #region tags
+/* @include b(tag) {
+  padding: 5px;
+} */
+// #endregion
+
+// #region badge
+@include b(badge) {
+  @include e(content) {
+    @include background_color_imp('color-decorate-red');
+  }
+}
+// #endregion
+// #region tooltip
+@include b(tooltip) {
+  @include e(popper) {
+    @include when(light) {
+      background: rgba(0,0,0,0.8)
+    }
+    @include when(dark) {
+      background: rgba(0,0,0,0.8)
+    }
+  }
+
+}
+// #endregion
+
+// #region table
+@include b(table) {
+  @include font-color_imp('color-assist-gray');
+}
+// #endregion

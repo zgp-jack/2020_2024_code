@@ -1,0 +1,453 @@
+.el-select {
+    width: 100%;
+}
+
+.el-button+.el-button {
+    margin-left: 8px;
+}
+.el-input-group__append{
+    background-color: transparent;
+    color: #8BA4DB;
+    border-color: rgba(103,144,226,1);
+}
+.el-button--primary{
+    background-image: linear-gradient(90deg, #2D6DFF 0%, #319FFF 100%);
+    border: none;
+}
+
+.el-button--primary:focus, .el-button--primary:hover{
+    background-image: linear-gradient(90deg, #2D6DFF 0%, #2D6DFF 100%);
+}
+
+.el-input__inner, .el-textarea__inner{
+    border: 1px solid rgba(103,144,226,1);
+    border-radius: 2px;
+    background-color: transparent;
+    color: #8BA4DB;
+    font-size: 14px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+.el-table, .el-table__expanded-cell, .el-table tr, .el-table th.el-table__cell{
+    background-color: transparent;
+    color: #D4E1FF;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{
+    background-color: transparent;
+}
+.el-table .el-table__header tr {
+    background-image: linear-gradient(90deg, rgba(45,109,255,.4) 0%, rgba(49,159,255,.4) 100%);
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell{
+    background-color: rgba(38,119,224,.25);
+}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+    border: none;
+}
+.el-table::before{
+    height: 0px;
+}
+.el-table__body-wrapper::-webkit-scrollbar {
+    width: 6px;
+    background-color: #001E42;
+}
+.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    background: #2A5D97;
+}
+
+.el-message-box{
+    background: #003068;
+    border: 1px solid rgba(29,110,197,1);
+}
+.el-message-box__title{
+    color: #D4E1FF;
+}
+.el-message-box__content{
+    color: #D4E1FF;
+}
+
+.el-dialog{
+    background: #003068;
+    border: 1px solid rgba(29,110,197,1);
+}
+
+.el-dialog__header{
+    background-image: linear-gradient(90deg, rgba(45,109,255,.6) 0%, rgba(49,159,255,.6) 100%);
+    text-align: left;
+    padding: 12px 0 12px 20px;
+    font-size: 16px;
+}
+.el-dialog__title {
+    color: #D4E1FF;
+}
+.el-dialog .el-form--label-left .el-form-item__label {
+    color: #D4E1FF;
+}
+.el-input-number__decrease, .el-input-number__increase{
+    border-color: rgba(103,144,226,1);
+    background-color: transparent;
+    color: #D4E1FF;
+}
+.el-dialog__headerbtn .el-dialog__close{
+    color: #D4E1FF;
+}
+
+.el-switch__label{
+    color: #ccc;
+}
+
+
+.tree-btn {
+    color: #C0D8FF;
+    padding: 10px 0;
+}
+.tree-view .el-tree-node__content .el-icon-caret-right:before{
+    content: '';
+    vertical-align: top;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../assets/未下拉状态.svg);
+    background-size: cover;
+}
+.tree-view .el-tree-node__content .el-tree-node__expand-icon.is-leaf.el-icon-caret-right:before{
+    width: 13px;
+    height: 13px;
+    background: none;
+}
+.tree-view .el-scrollbar__wrap{
+	overflow-x: hidden;
+}
+
+.custom-tree-node {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.check-ctl {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 16px;
+}
+
+.online-status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(180deg, #CBFFD0 0%, #3EDF29 100%);
+    border: 1px solid rgba(104, 246, 86, 0.36);
+    border-radius: 10px;
+    margin-right: 2px;
+}
+
+.offline-status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #A3B9DA;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 10px;
+    margin-right: 2px;
+}
+
+/* icon */
+.icon-user{
+    vertical-align: middle;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../assets/用户名.svg);
+    background-size: cover;
+}
+.icon-pwd{
+    vertical-align: middle;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../assets/密码.svg);
+    background-size: cover;
+}
+.icon-back {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/退出.svg);
+    background-size: cover;
+}
+.icon-play {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/播放视频.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-audio {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/语音.svg);
+}
+
+.icon-video {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/视频.svg);
+}
+
+.icon-bkq {
+    vertical-align: top;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background-image: url(../assets/布控球.svg);
+    background-size: cover;
+}
+
+.icon-wrj {
+    vertical-align: top;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background-image: url(../assets/无人机.svg);
+    background-size: cover;
+}
+
+.icon-scj {
+    vertical-align: top;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background-image: url(../assets/手持机.svg);
+    background-size: cover;
+}
+
+.icon-gismap {
+    vertical-align: top;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background-image: url(../assets/GIS地图.svg);
+    background-size: cover;
+}
+.icon-group {
+    vertical-align: middle;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../assets/群指.svg);
+    background-size: cover;
+}
+.icon-zju {
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background-image: url(../assets/专家组.svg);
+    background-size: cover;
+}
+.icon-tree-drop{
+    
+}
+
+/* virualRocker */
+.joystick-box .nipple{
+    opacity: 1 !important;
+}
+.joystick-box .front {
+    background-image: url(../assets/虚拟摇杆_按钮.svg) !important;
+    background-size: cover !important;
+    user-select: none;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+.joystick-box .back {
+    background: url(../assets/虚拟摇杆背景.svg) !important;
+    background-size: cover !important;
+    background-color: transparent !important;
+    user-select: none;
+    opacity: 1 !important;
+}
+
+/* table */
+.page-container {
+	min-height: 0;
+	flex-direction: column;
+	height: 100%;
+}
+.table-panel {
+	min-height: 0;
+	width: 75%;
+	height: 620px;
+	margin: 6.2% auto auto auto;
+	background: rgba(0,48,104,0.66);
+	border: 1px solid rgba(29,110,197,1);
+	padding: 32px;
+	position: relative;
+}
+.table-panel::before {
+	content: '';
+	background-image: url(../assets/弹窗框线_右（通用）.png);
+	background-size: cover;
+	position: absolute;
+	width: 167px;
+	height: 622px;
+	left: -187px;
+	top: 0;
+}
+.table-panel::after {
+	content: '';
+	background-image: url(../assets/弹窗框线_左（通用）.png);
+	background-size: cover;
+	position: absolute;
+	width: 167px;
+	height: 622px;
+	right: -187px;
+	top: 0;
+}
+
+/* room */
+.room .el-tree {
+	user-select: none;
+	background-color: transparent;
+	color: #F3F9FF;
+}
+.room .el-tab-pane{
+	height: 100%;
+}
+
+.room .el-tabs--border-card{
+	background-color: rgba(0, 48, 104, 0.66);
+	border-color: #1D6EC5;
+	margin-top: 45px;
+    position: relative;
+}
+.room .el-tabs__content{
+	height: 100%;
+	margin-top: 6px;
+	padding: 0;
+	box-sizing: border-box;
+    overflow:visible;
+}
+.room .el-tabs--border-card::after,
+.room .el-tabs--border-card::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: -1px;
+    border-style: solid;
+    border-color: rgba(132,192,255,1);
+}
+.room .el-tabs--border-card::after{
+    left: -1px;
+    border-width: 2px 0 0 2px;
+}
+.room .el-tabs--border-card::before {
+    right: -1px;
+    border-width: 2px 2px 0 0;
+}
+.room .el-tabs__content::after,
+.room .el-tabs__content::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    bottom: -3px;
+    border-style: solid;
+    border-color: rgba(132,192,255,1);
+}
+.room .el-tabs__content::after {
+    left: -1px;
+    border-width: 0 0 2px 2px;
+}
+.room .el-tabs__content::before {
+    right: -1px;
+    border-width: 0 2px 2px 0;
+}
+.room .el-tree-node__content{
+	height: 42px;
+}
+.room .el-tree-node__content:hover {
+	background-color: transparent;
+	background-image: linear-gradient(270deg, rgba(255,255,255,0) 0%, #2780FF 69%, rgba(255,255,255,0) 100%);
+	color: #fff;
+}
+.room .el-tree-node:focus>.el-tree-node__content,
+.room .el-tree-node.is-current {
+	background-color: transparent;
+	background-image: linear-gradient(270deg, rgba(255,255,255,0) 0%, #2780FF 69%, rgba(255,255,255,0) 100%);
+	color: #fff;
+}
+.room .el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+   background-color: transparent;
+   color: #fff;
+}
+.room .el-tabs--border-card>.el-tabs__header{
+	background-color: transparent;
+	border: none;
+	margin-top: -45px;
+}
+.room .el-tabs--border-card>.el-tabs__header .el-tabs__item{
+	background-image: linear-gradient(179deg, #007CFF 0%, rgba(48, 147, 251, 0) 100%);
+	color: #F3F9FF;
+	background-color: transparent;
+	border: none;
+	margin-right: 8px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 26px;
+	margin-top: 8px;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+    color: #F3F9FF;
+}
+.room .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active::after {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-image: linear-gradient(90deg, #2D6DFF 0%, #319FFF 100%);
+}
+.room .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+	background-image: linear-gradient(90deg, #2D6DFF 0%, #319FFF 100%);
+}
+.room .el-tab-panel{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.room .tree-view{
+	text-align: left;
+	flex: 1;
+	min-height: 0;
+	height: 100%;
+	padding: 16px 0 0 16px;
+}
+
+.room .tab-tool-panel {
+	width: 100%;
+	text-align: left;
+	height: 400px;
+	padding-top: 16px;
+	overflow: hidden;
+}
+.room .tab-tool-panel .tool-panel{
+	padding: 16px;
+}

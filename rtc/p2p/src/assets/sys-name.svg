@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="255px" height="31px" viewBox="0 0 255 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>应急通信指挥系统</title>
+    <defs>
+        <linearGradient x1="0%" y1="48.8395691%" x2="97.5756263%" y2="50.9754932%" id="linearGradient-1">
+            <stop stop-color="#BFE0FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AlimamaShuHeiTi, Alimama ShuHeiTi" font-size="32" font-weight="bold">
+        <g id="终端管理-新增" transform="translate(-833.000000, -20.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <text id="应急通信指挥系统">
+                <tspan x="832" y="47">应急通信指挥系统</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

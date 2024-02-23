@@ -1,0 +1,65 @@
+{
+  "id": "4142887",
+  "name": "webrtc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8441725",
+      "name": "设备信息",
+      "font_class": "shebeixinxi",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "7159338",
+      "name": "集群",
+      "font_class": "jiqun",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "29522551",
+      "name": "6B静音",
+      "font_class": "jingyin",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "29522559",
+      "name": "6A话筒",
+      "font_class": "huatong",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1374551",
+      "name": "挂断",
+      "font_class": "guaduan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4506836",
+      "name": "设备管理",
+      "font_class": "shebeiguanli",
+      "unicode": "ebb7",
+      "unicode_decimal": 60343
+    },
+    {
+      "icon_id": "6352505",
+      "name": "翻转镜头",
+      "font_class": "fanzhuanjingtou",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    }
+  ]
+}

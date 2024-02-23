@@ -1,0 +1,77 @@
+@import "~@/common/styles/theme/handle.scss";
+
+.pure-ticket {
+  .table-area {
+    @include font-color_imp('color-assist-gray');
+
+    // 工单状态
+    .state {
+
+      &--wait_delivery,
+      &--wait_audit {
+        &::before {
+          @include background_color_imp('color-assist-yellow');
+        }
+      }
+
+      &--wait_accept,
+      &--not_pass_audit {
+        &::before {
+          @include background_color_imp('color-decorate-red');
+        }
+      }
+
+      &--processing {
+        &::before {
+          @include background_color_imp('color-decorate-blue');
+        }
+      }
+
+      &--wait_appraisal {
+        &::before {
+          @include background_color_imp('color-primary');
+        }
+      }
+    }
+
+    // 紧急程度
+    .degree {
+      display: inline-block;
+      padding: 5px 12px;
+      color: white;
+      @include background_color_imp('color-assist-gray');
+
+      &--2 {
+        @include background_color_imp('color-assist-yellow');
+      }
+
+      &--1 {
+        @include background_color_imp('color-decorate-red');
+      }
+    }
+
+    // 故障描述/（关联）工单号
+    .fault-description,
+    .ticket-id {
+      @include font_color_imp('color-primary');
+      cursor: pointer;
+    }
+
+    // 通话记录接听情况 0-已接 1-拨出 2-未接
+    .call-record-status {
+      &--0 {
+        &::before {
+          @include background_color_imp('color-decorate-blue');
+        }
+
+      }
+
+      &--2 {
+        &::before {
+          @include background_color_imp('color-decorate-red');
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>三角形</title>
+    <defs>
+        <linearGradient x1="50%" y1="6.2106%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EAEFFF" offset="0%"></stop>
+            <stop stop-color="#1050DA" offset="81.1222103%"></stop>
+            <stop stop-color="#1C60FE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="56.3916016 189.633301 50.1471166 185.584646 43.3916016 189.633301 49.8916016 176.633301"></polygon>
+        <filter x="-53.8%" y="-38.5%" width="207.7%" height="207.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.180392161   0 0 0 0 0.603921592  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时监控-SCADA系统-展开作业" transform="translate(-40.000000, -171.000000)">
+            <g id="三角形" transform="translate(49.891602, 183.133301) rotate(-180.000000) translate(-49.891602, -183.133301) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'DingTalk';
+    src: url('@/assets/DingTalk JinBuTi.ttf') format('truetype');
+}
+
+.navMenuBox .el-menu-item.is-active {
+    background-image: linear-gradient(90deg, #ffbc0000 0%, #FFBC00 100%);
+}
+
+.settingRule .el-menu-item.is-active {
+    // background-image: linear-gradient(90deg, #65e2e2 0%, #006666 100%);
+}
+
+.page-column-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page-row-main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.main-box {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #282827;
+    line-height: 36px;
+    // margin-right: 32px;
+    font-weight: normal;
+}
+
+.card-total {
+    position: absolute;
+    right: 0;
+    top: -32px;
+    display: flex;
+    flex-flow: row;
+
+    p {
+        margin-left: 40px;
+
+        span {
+            color: #282827;
+        }
+    }
+}
+
+.page-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+    .page-title-box {
+        flex: 0;
+        width: 100%;
+        height: 32px;
+
+        .page-title-label {
+            font-size: 24px;
+            color: #282827;
+            font-weight: bold;
+        }
+    }
+
+    .page-content-box {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: calc(100% - 60px);
+
+        .page-content-main {
+            flex: 1;
+        }
+    }
+}
+
+.common-btn {
+    display: inline-block;
+    min-width: 60px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #006666;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 0 8px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #006666;
+    cursor: pointer;
+}
+
+.leftTable .el-table tr {
+    cursor: pointer;
+}
+
+.warnList-main .level-high .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #ff836b;
+    border-color: #ff836b;
+}
+
+.warnList-main .level-high .el-checkbox__input .el-checkbox__inner {
+    border-color: #ff836b;
+}
+
+.warnList-main .level-middle .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #ffd400;
+    border-color: #ffd400;
+}
+
+.warnList-main .level-middle .el-checkbox__input .el-checkbox__inner {
+    border-color: #ffd400;
+}
+
+.warnList-main .level-low .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #65adeb;
+    border-color: #65adeb;
+}
+
+.warnList-main .level-low .el-checkbox__input .el-checkbox__inner {
+    border-color: #65adeb;
+}
+
+.warnList-main .status-recovered .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #1EC969;
+    border-color: #1EC969;
+}
+
+.warnList-main .status-recovered .el-checkbox__input .el-checkbox__inner {
+    border-color: #1EC969;
+}
+
+.level-middle .el-checkbox__label {
+    color: #ffd400 !important;
+}
+
+.level-low .el-checkbox__label {
+    color: #65adeb !important;
+}
+
+.status-recovered .el-checkbox__label {
+    color: #1ec968 !important;
+}
+
+.level-high .el-checkbox__label,
+.status-recovery .el-checkbox__label {
+    color: #ff8269 !important;
+}
+
+.warnList-main .status-recovery .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #FF826B;
+    border-color: #FF826B;
+}
+
+.warnList-main .status-recovery .el-checkbox__input .el-checkbox__inner {
+    border-color: #FF826B;
+}
+
+.network-checkbox .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #1EC969;
+    border-color: #1EC969;
+    border-radius: 50%;
+}
+
+.network-checkbox .el-checkbox__input.is-focus .el-checkbox__inner,
+.network-checkbox .el-checkbox__input .el-checkbox__inner {
+    border-color: #799F9F;
+    border-radius: 50%;
+}
+
+
+#container {
+    position: relative;
+    display: flex;
+}
+
+#stencil {
+    position: relative;
+    width: 100px;
+    height: calc(100% - 16px);
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+#graph-container {
+    // margin-top: 16px;
+    width: 100% !important;
+    height: 100%;
+}
+
+.x6-widget-stencil {
+    background-color: #fff;
+}
+
+.x6-widget-stencil-title {
+    background-color: #fff;
+}
+
+.x6-widget-stencil-group-title {
+    background-color: #fff !important;
+}
+
+.x6-widget-transform {
+    margin: -1px 0 0 -1px;
+    padding: 0px;
+    border: 1px solid #239edd;
+}
+
+.x6-widget-transform>div {
+    border: 1px solid #239edd;
+}
+
+.x6-widget-transform>div:hover {
+    background-color: #3dafe4;
+}
+
+.x6-widget-transform-active-handle {
+    background-color: #3dafe4;
+}
+
+.x6-widget-transform-resize {
+    border-radius: 0;
+}
+
+.x6-widget-selection-inner {
+    border: 1px solid #239edd;
+}
+
+.x6-widget-selection-box {
+    opacity: 0;
+}
+
+.networkTogologView .network-warn .warnList-main {
+    height: calc(100% - 0px) !important;
+}
+
+.warnList-empty.el-empty {
+    height: calc(100% - 46px);
+}

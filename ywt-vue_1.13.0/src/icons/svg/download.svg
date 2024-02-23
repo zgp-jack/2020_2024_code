@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 71</title>
+    <g id="报障" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-71">
+            <rect id="矩形" stroke="#426ED7" fill="#FFFFFF" x="0.5" y="0.5" width="31" height="31" rx="4"></rect>
+            <g id="下载_download" transform="translate(8.000000, 8.000000)">
+                <rect id="矩形" fill-opacity="0.01" fill="#426ED7" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                <polyline id="路径" stroke="#426ED7" stroke-width="1.33333333" stroke-linecap="round" stroke-linejoin="round" points="2 8.00276667 2 14 14 14 14 8"></polyline>
+                <polyline id="路径" stroke="#426ED7" stroke-width="1.33333333" stroke-linecap="round" stroke-linejoin="round" points="11 7.66666667 8 10.6666667 5 7.66666667"></polyline>
+                <line x1="7.99723333" y1="2" x2="7.99723333" y2="10.6666667" id="路径" stroke="#426ED7" stroke-width="1.33333333" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

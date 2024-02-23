@@ -1,0 +1,17 @@
+/**
+** 全局公共样式
+*/
+@import "~@/common/styles/theme/handle.scss";
+
+// 前置小圆点
+.prefix-dot {
+  &::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 8px;
+    @include background_color_imp('color-assist-gray');
+  }
+}

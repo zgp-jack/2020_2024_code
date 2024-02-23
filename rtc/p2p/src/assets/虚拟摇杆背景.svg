@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 7</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7CACF4" offset="0%"></stop>
+            <stop stop-color="#418AE0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#2675D0" offset="0.0871564958%"></stop>
+            <stop stop-color="#023481" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#A3D2FF" offset="0%"></stop>
+            <stop stop-color="#215897" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="79" cy="79" r="70"></circle>
+        <filter x="-6.1%" y="-4.6%" width="112.1%" height="112.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.279779629   0 0 0 0 0.456548848   0 0 0 0 0.664512634  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#BDDAFC" offset="0%"></stop>
+            <stop stop-color="#EEF6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="实时指挥_虚拟摇杆" transform="translate(-74.000000, -717.000000)">
+            <g id="编组-5" transform="translate(22.000000, 647.000000)">
+                <g id="编组-7" transform="translate(52.000000, 70.000000)">
+                    <g id="编组-6">
+                        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="79" cy="79" r="79"></circle>
+                        <g id="椭圆形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <circle stroke="url(#linearGradient-3)" stroke-width="1" stroke-linejoin="square" fill="url(#linearGradient-2)" fill-rule="evenodd" cx="79" cy="79" r="69.5"></circle>
+                        </g>
+                        <polygon id="三角形" fill="url(#linearGradient-6)" transform="translate(140.500000, 79.500000) rotate(-270.000000) translate(-140.500000, -79.500000) " points="140.5 77 145 82 136 82"></polygon>
+                    </g>
+                    <polygon id="三角形备份-4" fill="url(#linearGradient-6)" points="79.5 15 84 20 75 20"></polygon>
+                    <polygon id="三角形备份-5" fill="url(#linearGradient-6)" transform="translate(17.500000, 79.500000) rotate(-90.000000) translate(-17.500000, -79.500000) " points="17.5 77 22 82 13 82"></polygon>
+                    <polygon id="三角形备份-2" fill="url(#linearGradient-6)" transform="translate(79.500000, 140.500000) rotate(-180.000000) translate(-79.500000, -140.500000) " points="79.5 138 84 143 75 143"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

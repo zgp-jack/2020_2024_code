@@ -1,0 +1,92 @@
+<template>
+  <li class="el-timeline-item">
+    <!-- <div class="el-timeline-item__tail" /> -->
+
+    <div
+      v-if="!$slots.dot"
+      class="el-timeline-item__node"
+      :class="[
+        `el-timeline-item__node--${size || ''}`,
+        `el-timeline-item__node--${type || ''}`
+      ]"
+      :style="{
+        backgroundColor: color
+      }"
+    >
+      <i
+        v-if="icon"
+        class="el-timeline-item__icon"
+        :class="icon"
+      />
+    </div>
+    <div v-if="$slots.dot" class="el-timeline-item__dot">
+      <slot name="dot" />
+    </div>
+
+    <div class="el-timeline-item__wrapper">
+      <div
+        v-if="!hideTimestamp && placement === 'top'"
+        class="el-timeline-item__timestamp is-top"
+      >
+        {{ timestamp }}
+      </div>
+
+      <div class="el-timeline-item__content">
+        <slot />
+      </div>
+
+      <div
+        v-if="!hideTimestamp && placement === 'bottom'"
+        class="el-timeline-item__timestamp is-bottom"
+      >
+        {{ timestamp }}
+      </div>
+    </div>
+  </li>
+</template>
+
+<script>
+export default {
+  name: 'PureTimelineItem',
+
+  inject: [
+    'timeline',
+  ],
+
+  props: {
+    timestamp: String,
+
+    hideTimestamp: {
+      type: Boolean,
+      default: false,
+    },
+
+    placement: {
+      type: String,
+      default: 'bottom',
+    },
+
+    type: String,
+
+    color: String,
+
+    size: {
+      type: String,
+      default: 'normal',
+    },
+
+    icon: String,
+  },
+};
+</script>
+<style lang="scss" scoped>
+@import "~@/common/styles/theme/handle.scss";
+.el-timeline-item__node {
+ background: unset;
+ border: 2px solid;
+ @include border_color_imp('color-text-placeholder');
+}
+.el-timeline-item__wrapper {
+  top: 0;
+}
+</style>

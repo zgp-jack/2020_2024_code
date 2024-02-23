@@ -1,0 +1,8 @@
+@import "./green-theme.scss";
+@import "./blue-theme.scss";
+@import './orange-theme.scss';
+$themes: (
+  green-theme: $green-theme,
+  blue-theme: $blue-theme,
+  orange-theme: $orange-theme
+);

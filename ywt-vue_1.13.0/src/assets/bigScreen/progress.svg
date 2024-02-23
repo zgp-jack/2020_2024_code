@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>进行</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2C6973" offset="0%"></stop>
+            <stop stop-color="#0A171A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M25,17.5 C29.1421356,17.5 32.5,20.8578644 32.5,25 C32.5,29.1421356 29.1421356,32.5 25,32.5 C20.8578644,32.5 17.5,29.1421356 17.5,25 C17.5,20.8578644 20.8578644,17.5 25,17.5 Z M25.4503874,21.1470518 C25.1567759,20.9291973 24.7401122,20.9534034 24.4738456,21.2196699 L24.4738456,21.2196699 L21.4196699,24.2738456 L21.3470518,24.3579641 C21.1291973,24.6515756 21.1534034,25.0682392 21.4196699,25.3345058 L21.4196699,25.3345058 L21.5037883,25.407124 C21.7973998,25.6249784 22.2140635,25.6007724 22.4803301,25.3345058 L22.4803301,25.3345058 L24.254,23.559 L24.2541757,28.280971 L24.2610223,28.3827415 C24.3106847,28.7488171 24.6244799,29.030971 25.0041757,29.030971 C25.4183893,29.030971 25.7541757,28.6951845 25.7541757,28.280971 L25.7541757,28.280971 L25.754,23.56 L27.5280213,25.3345058 L27.6121398,25.407124 C27.9057513,25.6249784 28.3224149,25.6007724 28.5886815,25.3345058 C28.8815747,25.0416126 28.8815747,24.5667388 28.5886815,24.2738456 L28.5886815,24.2738456 L25.5345058,21.2196699 Z" id="path-2"></path>
+        <filter x="-46.7%" y="-33.3%" width="193.3%" height="193.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0470588235   0 0 0 0 0.101960784  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-21备份-3">
+            <circle id="椭圆形" stroke="#0F2326" fill="#000C1A" cx="25" cy="25" r="24.5"></circle>
+            <path d="M5,25 C5,36.045695 13.954305,45 25,45 C27.6919803,45 30.2597403,44.4681495 32.6039352,43.5037934" id="路径" stroke="#60E7FC" opacity="0.65"></path>
+            <path d="M39.3189247,38.9631225 C42.8341804,35.3588583 45,30.4323563 45,25" id="路径" stroke="#FFFFFF" opacity="0.65"></path>
+            <path d="M43.9800385,18.6774072 C41.3339645,10.7302524 33.8361683,5 25,5" id="路径" stroke="#60E7FC" opacity="0.65"></path>
+            <circle id="椭圆形" fill="url(#linearGradient-1)" cx="25" cy="25" r="15"></circle>
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#53C7D9" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
